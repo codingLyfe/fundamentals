@@ -25,6 +25,8 @@ notEquals = 5 !== 2;
 
 */
 
+/*
+
 storeA = 1.40;
 storeB = 3.40;
 
@@ -50,3 +52,48 @@ function squareNum(number) {
 
 squaredNumber = squareNum(4);
 console.log(squaredNumber);
+
+*/
+
+/*
+
+x = 10;
+
+function addNumbers (n, m, x) {
+	console.log(x);
+	var b;
+	if (1===1) {
+		b = 8;
+	}
+	console.log(b);
+	return n + m + x;
+}
+
+console.log(addNumbers(1,2,10));
+
+*/
+
+/*
+
+//Index     0  1  2  3  4  5  6
+ourArray = [1, 2, 3, 4, 5, 6, 7];
+
+arrLen = ourArray.length;
+for (i = 0; i < arrLen; i++){
+	//console.log("i is equal to: " + i);
+	console.log(ourArray[i]);
+
+	for (j = 0; j < 10; j++) {
+		console.log('j is equal to: ' + j);
+	}
+}
+
+*/
+
+
+x = 0;
+while (x < 10) {
+	console.log('Ran');
+	x = x +1;
+}
+
